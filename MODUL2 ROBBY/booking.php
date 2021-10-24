@@ -35,11 +35,11 @@
             <div class="row border p-2">
                 <div class="col align-self-center" for="tes">
                     <?php if (isset($_POST['img'])): ?>
-                      <img src="<?= $_POST['img']?>" class="rounded mx-auto d-block" style="width: 30rem;" alt="foto">
+                      <img src="<?= $_POST['nama']?>" class="rounded mx-auto d-block" style="width: 30rem;" alt="foto">
                     <?php elseif (isset($_POST['img2'])): ?>
-                      <img src="<?= $_POST['img2']?>" class="rounded mx-auto d-block" style="width: 30rem;" alt="foto">
+                      <img src="<?= $_POST['nama']?>" class="rounded mx-auto d-block" style="width: 30rem;" alt="foto">
                     <?php elseif (isset($_POST['img3'])): ?>
-                      <img src="<?= $_POST['img3']?>" class="rounded mx-auto d-block" style="width: 30rem;" alt="foto">
+                      <img src="<?= $_POST['nama']?>" class="rounded mx-auto d-block" style="width: 30rem;" alt="foto">
                     <?php else: ?>
                       <img src="nusantarahall.jpeg" class="rounded mx-auto d-block" style="width: 30rem;">
                     <?php endif;?>
@@ -123,7 +123,7 @@
                       </div>
                       <!-- Button -->
                       <div class="d-grid gap-2 mt-3">
-                          <button class="btn btn-primary" type="submit" name="submit">Book</button>
+                          <button class="btn btn-primary" type="submit" name="book">Book</button>
                       </div>
                     </form>
                 </div>

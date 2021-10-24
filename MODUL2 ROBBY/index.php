@@ -48,7 +48,7 @@
                 <li class="list-group-item fw-bold text-success">Covid-19 Health Protocol</li>
               </ul>
               <div class="card-body text-center">
-                <form action="booking.php" method="POST">
+                <form action="mybooking.php" method="POST">
                   <input name="img" value="nusantarahall.jpeg" hidden>
                   <button class="btn btn-primary" type="submit">Book now</button>
                 </form>

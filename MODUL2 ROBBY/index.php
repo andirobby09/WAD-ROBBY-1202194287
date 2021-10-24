@@ -27,7 +27,7 @@
     </nav>
     <!--Heading-->
     <div class="heading text-center">
-      <h5>WELCOME TO ESD VENUE RESERVATION</h5>
+      <h5>WELCOME TO ESD VENUE RESERVATION...</h5>
       <div class="container bg-dark" id="text">Find your best deal for your event, here!</div>
     </div>
     <!--Card-->

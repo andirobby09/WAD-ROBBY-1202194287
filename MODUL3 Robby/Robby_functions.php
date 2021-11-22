@@ -15,9 +15,9 @@
     function tambah($data){
         global $conn;
         // cek tombol submit
-        $judul = $data["judul_buku"];
-        $penulis = $data["penulis_buku"];
-        $tahun = $data["tahun_terbit"];
+        $judul = $data["judul"];
+        $penulis = $data["penulis"];
+        $tahun = $data["tahun"];
         $deskripsi = $data["deskripsi"];
         $tag = implode(", ", $data["tag"]);
         $bahasa = $data["bahasa"];
@@ -38,10 +38,10 @@
     
     // hapus data
     function hapus($id){
-        global $conn;
-        mysqli_query($conn, "DELETE FROM buku_table WHERE id_buku='$id'");
+        global $con;
+        mysqli_query($con, "DELETE FROM buku_table WHERE id_buku='$id'");
         
-        return mysqli_affected_rows($conn);
+        return mysqli_affected_rows($con);
     }
     
     function ubah($data){

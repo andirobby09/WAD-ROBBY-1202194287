@@ -49,7 +49,7 @@
         <div class="container" style="width:40rem;">
             <div class="shadow-lg p-5 mb-5 bg-body rounded p-2">
                 <h3 class="text-center mb-5">Detail Buku</h3>
-                <?php foreach ($buku as $row) : ?>
+                <?php foreach ($buku as $bukus) : ?>
                     <img src="foto/<?= $row["gambar"]; ?>" class="rounded mx-auto d-block" style="width: 20rem;" alt="foto">
                     <hr style="color:aqua">
                     <p class="fw-bold">Judul :</p>

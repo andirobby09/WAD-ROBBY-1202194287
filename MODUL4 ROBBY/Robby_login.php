@@ -18,7 +18,7 @@
         registerasi($_POST);
     }
     // login
-    if (isset($_POST['login'])){
+    if (isset($POST['login'])){
         if(isset($_POST['email'])){
             $email = $_POST['email'];
             $password = $_POST['password'];

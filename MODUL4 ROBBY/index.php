@@ -30,7 +30,7 @@
 </head>
 <body style="background: #FEF8E7;">
 
-    <?php if(isset($_SESSION["login"])):?>
+    <?php if(isset($SESSION["login"])):?>
         <nav class="navbar navbar-expand-lg navbar-light" style="background: #7DB1FF;">
             <div class="container">
                 <a class="navbar-brand fw-bold" href="index.php">EAD Travel</a>

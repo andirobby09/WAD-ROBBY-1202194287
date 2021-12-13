@@ -33,7 +33,7 @@ Route::get('/pasien/create{$id}', [PasienController::class, 'create']);
 // Route::get('/pasien/register', [PasienController::class, 'create']);
 
 Route::resource("vaksin", VaccineController::class);
-Route::resource("pasien", PasienController::class);
+Route::resource("pasen", PasienController::class);
 
 
 

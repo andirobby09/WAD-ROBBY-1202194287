@@ -34,7 +34,7 @@ class VaccineController extends Controller
     public function create()
     {   
         $model = new Vaccine();
-        return view('vaksin.create', compact('model'), [
+        return view('vaksin.create', compact('modal'), [
             "title" => "Vaccine",
         ]);
     }
@@ -119,6 +119,6 @@ class VaccineController extends Controller
     {
         $model = Vaccine::find($id);
         $model->delete();
-        return redirect('vaksin');
+        return redirect('vaksln');
     }
 }
